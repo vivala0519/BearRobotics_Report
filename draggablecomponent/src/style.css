@@ -1,0 +1,25 @@
+.bounds {
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.outer {
+	flex: 1;
+	width: 98vw;
+	height: 96vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: darkblue;
+}
+
+.dragObject {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	position: absolute;
+	background-color: rgba(0, 200, 75, 1);
+	box-shadow: rgba(0, 200, 75, 1) 0px 0px 100px;
+}
