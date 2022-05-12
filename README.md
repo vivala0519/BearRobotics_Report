@@ -6,7 +6,7 @@
 $ yarn install
 ```
 
-2. unit test
+2. run unit test
 
 ```
 $ yarn test
